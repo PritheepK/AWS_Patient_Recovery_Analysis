@@ -1,6 +1,6 @@
 # Healthcare Data Lake & ETL Pipeline on AWS
 
-This project demonstrates how to build a **Healthcare Data Lake and ETL Pipeline** using AWS services.  
+This project demonstrates a **Healthcare Data Lake and ETL Pipeline** using AWS services.  
 The pipeline ingests raw patient recovery data, processes it with AWS Glue (PySpark), and makes it available for analytics in Redshift and visualization in QuickSight.
 
 
