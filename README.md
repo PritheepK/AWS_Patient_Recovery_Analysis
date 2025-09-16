@@ -40,7 +40,7 @@ The pipeline ingests raw patient recovery data, processes it with AWS Glue (PySp
 
 
 
-## Example Athena Query
+## Athena Query
 
 
 ``````sql
@@ -72,7 +72,7 @@ GROUP BY city
 ORDER BY avg_recovery DESC;
 ---
 
-Example Redshift Load
+**Redshift Load**
 
 
 ```sql
@@ -102,7 +102,7 @@ FORMAT AS PARQUET;
 
 ---
 
-## QuickSight Dashboards
+##** QuickSight Dashboards**
 
   - Average recovery time by city  
 
@@ -114,7 +114,7 @@ FORMAT AS PARQUET;
 
 ---
 
-## Summary
+## **Summary**
 
 This project implements a Healthcare Data Lake \& ETL Pipeline on AWS.  
 It shows how to ingest, clean, transform, query, and visualize healthcare data efficiently.
