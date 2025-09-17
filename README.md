@@ -44,7 +44,7 @@ The pipeline ingests raw patient recovery data, processes it with AWS Glue (PySp
 
 
 ``````sql
-CREATE EXTERNAL TABLE patient\_recovery\_curated (
+CREATE EXTERNAL TABLE patient_recovery_curated (
     patient_id BIGINT,
     name STRING,
     age BIGINT,
